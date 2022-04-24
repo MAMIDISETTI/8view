@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player'
 
 import './index.css'
 
-const videoURL = 'https://youtu.be/YE7VzlLtp-4'
+const videoURL = 'https://www.youtube.com/embed/ZgqwjeGj4nw'
 const VideoPlayer = () => (
   <div className="video-container">
     <div className="responsive-container">

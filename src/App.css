@@ -80,10 +80,10 @@ body {
   color: #61470b;
 }
 .desc2 {
-  text-align: center;
   padding: 20px;
   font-size: 20px;
   letter-spacing: 1px;
+  text-align: center;
 }
 .client-words {
   background-color: #f9f2ea;
@@ -103,6 +103,7 @@ body {
   border-radius: 10px;
   padding: 15px 60px;
   border: none;
+  cursor: pointer;
 }
 .client-words h2 {
   text-align: center;
@@ -122,6 +123,9 @@ body {
 .house {
   margin-top: 30px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .head3 {
   font-family: 'Roboto Serif', serif;
@@ -132,7 +136,6 @@ body {
 }
 .desc3 {
   font-weight: 600;
-  text-align: center;
   font-family: 'Roboto Serif', serif;
   color: #61470b;
   font-size: 30px;
@@ -153,6 +156,7 @@ body {
   border-radius: 10px;
   padding: 15px 60px;
   border: none;
+  cursor: pointer;
 }
 .btn3 {
   margin-left: 80px;
@@ -163,6 +167,7 @@ body {
   border-top-right-radius: 10px;
   padding: 15px 60px;
   border: none;
+  cursor: pointer;
 }
 .form-box {
   box-shadow: 0px 1px 5px #ccc;
@@ -199,25 +204,55 @@ body {
   margin-top: 90px;
 }
 
-@media screen and (max-width: 7680px) {
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image1 {
+  width: 80px;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 50px;
+}
+.images3 {
+  width: 40px;
+  height: 40px;
+}
+.img-container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .why-container-media {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .desc2 {
     font-size: 15px;
     margin-left: 35px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .desc1 {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .house-cont {
     display: flex;
     flex-wrap: wrap;
@@ -226,44 +261,44 @@ body {
     margin-bottom: -70px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .head3 {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .desc3 {
     font-size: 20px;
     margin-left: 30px;
     width: 300px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .complete {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .desc5 {
     font-size: 20px;
     margin-left: 30px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .bottom1 {
     display: flex;
     justify-content: center;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .bottom-container1 {
     width: 300px;
     margin-left: 30px;
   }
 }
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
   .btn34 {
     align-items: center;
     margin-bottom: 0px;
